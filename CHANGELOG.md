@@ -1,3 +1,8 @@
+## 2.0.1 - 2022-02-13
+
+- Update dependencies
+- Add `getState` option to `RateLimitOptions`. When provided, puts the rate limit information for the current operation into `context`. Includes an example of how to return this information in a response's `extensions`.
+
 ## 2.0.0 - 2021-11-07
 
 - Update dependencies, minimum `graphql-tools` version is now `8`
